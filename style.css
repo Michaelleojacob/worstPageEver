@@ -1,0 +1,54 @@
+body {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgb(129, 61, 109) 0%,
+		rgb(60, 102, 76) 35%,
+		rgb(118, 126, 75) 100%
+	);
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: nowrap;
+}
+
+h1 {
+	display: flex;
+	text-align: center;
+	color: rgb(212, 131, 25);
+	font-size: 2.5rem;
+}
+
+#mybutton {
+	background: hotpink;
+	height: 75px;
+	background: hotpink;
+	height: 75px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+#cantTouchThis {
+	display: flex;
+	z-index: 1;
+	transition: 0.5s transform;
+	width: var(--div-width);
+}
+
+button {
+	outline: none;
+	border: 1px solid rgb(112, 37, 75);
+	pointer-events: none;
+}
+
+#displayText {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
